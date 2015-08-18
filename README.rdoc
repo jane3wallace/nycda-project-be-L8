@@ -1,0 +1,38 @@
+== README
+Lesson 7 - Basic Rails App
+https://gist.github.com/kareemgrant/337275f44dd50ee63687
+
+Goals
+Get familiar with creating a Rails app and the basics, be sure your Ruby is up to par.
+
+Assignment
+1) Rails: Create a new Rails application for a blog with a Post model and Posts controller. The app should two views: One that lists all posts and one show the detail of a specific post.
+2) When a user navigates to the root path of your app, they should be directed to a view that lists all posts.
+
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
