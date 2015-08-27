@@ -11,5 +11,9 @@
 </div>
 </br>
 <div>
-	<div><a href="/">Back to List of Posts</a></div>
+  <%= link_to("Delete This Post", post_path(@post.id), method: :delete) %>
+</div>
+<br>
+<div>
+  <%= link_to("Back to List of Posts", posts_path) %>
 </div>

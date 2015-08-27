@@ -1,0 +1,18 @@
+<div>
+  <h2>
+    Create a Post
+  </h2>
+  <%= form_for @post do |p| %>
+    <div>
+      <%= p.label :title %>
+      <%= p.text_field :title %>
+    </div>
+    <div>
+      <%= p.label :body %>
+      <%= p.text_area :body %>
+    </div>
+    <div>
+      <%= p.submit :create %>
+    </div>
+  <% end %>
+</div>

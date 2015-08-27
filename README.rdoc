@@ -1,38 +1,10 @@
 == README
-Lesson 7 - Basic Rails App
-https://gist.github.com/kareemgrant/337275f44dd50ee63687
+Lesson 8 - Rails Models & Controllers
+https://gist.github.com/kareemgrant/f3f6607d2013ca699ce9
 
-Goals
-Get familiar with creating a Rails app and the basics, be sure your Ruby is up to par.
+Goals:
+Understand RESTful routing and how to create the routing necessary for an arbitrary resource in Rails
 
-Assignment
-1) Rails: Create a new Rails application for a blog with a Post model and Posts controller. The app should two views: One that lists all posts and one show the detail of a specific post.
-2) When a user navigates to the root path of your app, they should be directed to a view that lists all posts.
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Assignment:
+1) Add the ability to delete Posts from the index view for Posts. The user should be rediected to the index page and be presented with a confirmation flash message after a post is successfully deleted.
+2) Add the ability to create Posts. The user should be redirected to the show page of the newly created post and be presented with a confirmation flash message confirming that post was successfully created.
