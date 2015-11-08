@@ -1,10 +1,9 @@
-== README
-Lesson 8 - Rails Models & Controllers
-https://gist.github.com/kareemgrant/f3f6607d2013ca699ce9
+== NYCDA BE Lesson 8: <i>Rails Models & Controllers</i>
+A project that I created during my New York Code + Design Academy Back End 101 class in New York after Week 5 Lecture 1. This project was to add functionality to a Ruby on Rails web application created in Lesson 7.
 
-Goals:
-Understand RESTful routing and how to create the routing necessary for an arbitrary resource in Rails
+=== Assignment:
+* Review RESTful routing and how to create the routing necessary for an arbitrary resource in Rails
 
-Assignment:
-1) Add the ability to delete Posts from the index view for Posts. The user should be rediected to the index page and be presented with a confirmation flash message after a post is successfully deleted.
-2) Add the ability to create Posts. The user should be redirected to the show page of the newly created post and be presented with a confirmation flash message confirming that post was successfully created.
+* Using the app created in Lesson 7, add the ability to delete Posts from the index view for Posts. The user should be redirected to the index page and be presented with a confirmation flash message after a post is successfully deleted.
+
+* Add the ability to create Posts. The user should be redirected to the show page of the newly created post and be presented with a confirmation flash message confirming that post was successfully created.
